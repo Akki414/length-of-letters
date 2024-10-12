@@ -1,0 +1,4 @@
+input_string = "abc.d.ef.ghij"
+substrings = input_string.split('.')
+output = max(len(sub) for sub in substrings)
+print(output)
